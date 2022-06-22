@@ -5,7 +5,7 @@ IMAGE_VERSION="1.0.0"
 WORK_PATH=$(cd $(dirname $0); pwd)
 echo "WORK_PATH: ${WORK_PATH}"
 
-export PROJECTS_PATH=${WORK_PATH}/projects
+export PROJECTS_PATH=/home/${MY_NAME}/projects
 
 session=${IMAGE_NAME}
 
