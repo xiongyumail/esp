@@ -1,0 +1,6 @@
+[submodule "tools/gdocker"]
+	path = tools/gdocker
+	url = https://github.com/xiongyumail/gdocker
+[submodule "tools/esp-idf"]
+	path = tools/esp-idf
+	url = https://github.com/espressif/esp-idf
