@@ -1,24 +1,10 @@
-# _ESP32-HMI_
-
-[![CI](https://github.com/xiongyumail/esp-hmi/actions/workflows/main.yml/badge.svg)](https://github.com/xiongyumail/esp-hmi/actions/workflows/main.yml)
+# _ESP_
 
 ## Contents
-
-    * projects
-
-      Development examples
 
     * tools
 
       * esp-idf sdk
-      * gdocker
-      * lvgl tool
-
-    * Data
-
-      * Schematic diagram
-
-      * Misc
 
 ## How to use
 
@@ -33,8 +19,8 @@ You can follow the steps below to set up the development environment, or directl
 * clone
 
   ```bash
-  git clone --recursive https://github.com/xiongyumail/esp32-hmi
-  cd esp32-hmi
+  git clone --recursive https://github.com/xiongyumail/esp
+  cd esp
   ```
 
   * note
@@ -45,19 +31,13 @@ You can follow the steps below to set up the development environment, or directl
 
   ```bash
   git pull
-  git submodule update --init --recursive
+  git submodule update --recursive
   ```
 
 * Run
 
   ```bash
-  ./start.sh
+  cd [your_projects_path]
+  ./../esp/start.sh .
   ```
 
-## Appendix
-
-### Schematic
-
-### Datasheet
-
-* [CAM-OV2640](docs/OV2640_DS+(2.2).pdf)
