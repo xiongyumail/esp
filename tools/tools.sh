@@ -52,6 +52,7 @@ fi
 sudo apt-get install -y \
    python3 \
    python3-pip \
+   python3-venv \
    cmake \
    libusb-1.0
 if [ ! -f "${TEMP_PATH}/.tools/esp-idf" ]; then
